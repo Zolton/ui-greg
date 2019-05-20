@@ -126,6 +126,34 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header {
+  width: 100%;
+  background-color: whitesmoke;
+}
+header .top-nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0px auto;
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 50px 0px;
+}
+.carousel {
+  margin-bottom: 70px;
+  width: 100%;
+}
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  font-size: 1.5rem;
+  font-size: 1.3rem;
+}
 @media screen and (min-width: 800px) {
   body {
     background-color: red;
@@ -134,5 +162,6 @@ table {
 @media screen and (min-width: 1000px) {
   body {
     background-color: blue;
+    max-width: 1200px;
   }
 }
