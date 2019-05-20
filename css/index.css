@@ -126,3 +126,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@media screen and (min-width: 800px) {
+  body {
+    background-color: red;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+}
