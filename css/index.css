@@ -165,3 +165,62 @@ body {
     max-width: 1200px;
   }
 }
+header {
+  width: 100%;
+  background-color: whitesmoke;
+}
+header .top-nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0px auto;
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 50px 0px;
+}
+.carousel {
+  margin-bottom: 70px;
+  width: 100%;
+}
+.member-picture-plus-info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin: 50px 0px;
+}
+.member-picture-plus-info .member-photo {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.member-picture-plus-info .member-info h2 {
+  font-size: 2rem;
+}
+@media screen and (min-width: 1000px) {
+  .member-picture-plus-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .member-picture-plus-info .member-photo {
+    margin-right: 50px;
+    width: 50%;
+  }
+  .member-picture-plus-info .member-info {
+    margin-left: 50px;
+    width: 50%;
+  }
+  .member-picture-plus-info .member-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
