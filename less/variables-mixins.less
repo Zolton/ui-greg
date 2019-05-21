@@ -1,0 +1,15 @@
+// To Do Mixins: display,
+
+.displayset (@direction, @justi, @align) {
+    display: flex;
+    flex-flow: @direction nowrap;
+    justify-content: @justi;
+    align-items: @align;
+    margin: 0px auto;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+@tablet800: ~"(min-width: 800px)";
+
+@desktop1000: ~"(min-width: 1000px)";

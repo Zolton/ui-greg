@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  background-color: whitesmoke;
+  .top-nav-bar {
+    .displayset (row, space-around, flex-end);
+    margin: 50px 0px;
+  }
+}
+
+.carousel {
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+.member-picture-plus-info {
+  .displayset (column, space-around, center);
+
+  font-size: 1.3rem;
+  margin: 50px 0px;
+  .member-photo {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .member-info {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and @tablet800 {
+  .member-picture-plus-info {
+    .displayset (row, space-around, center);
+    .member-photo {
+      width: 48%;
+    }
+    .member-info {
+      width: 48%;
+    }
+  }
+
+}
