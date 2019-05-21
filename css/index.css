@@ -144,14 +144,21 @@ header .top-nav-bar {
   margin-bottom: 70px;
   width: 100%;
 }
+.fixed-image-separator {
+  height: 200px;
+  width: 100%;
+}
 body {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0px auto;
   width: 100%;
   font-size: 1.3rem;
+}
+body h2 {
+  font-size: 2rem;
 }
 body .first-row div {
   margin: 50px 0px;
@@ -183,15 +190,18 @@ body footer div {
     margin: 0px auto;
     width: 100%;
     font-size: 1.3rem;
+    background-color: whitesmoke;
   }
   body div {
     margin: 50px 0px;
     justify-content: space-between;
-    background-color: whitesmoke;
   }
   body .first-row div {
     margin: 50px 0px;
     width: 28%;
+  }
+  body .second-row {
+    background-color: whitesmoke;
   }
   body .second-row div {
     margin: 50px 0px;
