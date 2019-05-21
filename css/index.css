@@ -258,26 +258,20 @@ header .top-nav-bar {
 .member-picture-plus-info .member-info h2 {
   font-size: 2rem;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .member-picture-plus-info {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     margin: 0px auto;
     width: 100%;
     font-size: 1.3rem;
   }
   .member-picture-plus-info .member-photo {
-    margin-right: 50px;
-    width: 50%;
+    width: 48%;
   }
   .member-picture-plus-info .member-info {
-    margin-left: 50px;
-    width: 50%;
-  }
-  .member-picture-plus-info .member-info h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    width: 48%;
   }
 }
