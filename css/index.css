@@ -181,6 +181,14 @@ body footer nav a {
 body footer div {
   margin: 50px 0px;
 }
+body button {
+  padding: 15px;
+  border-radius: 12px;
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
 @media screen and (min-width: 800px) {
   body .first-row {
     display: flex;
