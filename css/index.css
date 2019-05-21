@@ -175,9 +175,6 @@ body footer div {
   margin: 50px 0px;
 }
 @media screen and (min-width: 800px) {
-  body {
-    background-color: red;
-  }
   body .first-row {
     display: flex;
     flex-flow: row nowrap;
@@ -186,7 +183,15 @@ body footer div {
     margin: 0px auto;
     width: 100%;
     font-size: 1.3rem;
+  }
+  body div {
     margin: 50px 0px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+  }
+  body .first-row div {
+    margin: 50px 0px;
+    width: 28%;
   }
   body .second-row div {
     margin: 50px 0px;
@@ -209,7 +214,6 @@ body footer div {
 }
 @media screen and (min-width: 1000px) {
   body {
-    background-color: blue;
     max-width: 1200px;
   }
   body .second-row {
@@ -221,6 +225,9 @@ body footer div {
     width: 100%;
     font-size: 1.3rem;
     margin: 50px 0px;
+  }
+  body .second-row div {
+    width: 45%;
   }
 }
 header {
