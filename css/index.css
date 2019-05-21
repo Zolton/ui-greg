@@ -157,14 +157,12 @@ body {
   width: 100%;
   font-size: 1.3rem;
 }
+body div {
+  margin: 50px 0px;
+  justify-content: space-between;
+}
 body h2 {
   font-size: 2rem;
-}
-body .first-row div {
-  margin: 50px 0px;
-}
-body .second-row div {
-  margin: 50px 0px;
 }
 body footer nav {
   display: flex;
@@ -177,9 +175,6 @@ body footer nav {
 }
 body footer nav a {
   margin: 10px 0px;
-}
-body footer div {
-  margin: 50px 0px;
 }
 body button {
   padding: 15px;
@@ -200,34 +195,11 @@ body button {
     font-size: 1.3rem;
     background-color: whitesmoke;
   }
-  body div {
-    margin: 50px 0px;
-    justify-content: space-between;
-  }
   body .first-row div {
-    margin: 50px 0px;
     width: 28%;
   }
   body .second-row {
     background-color: whitesmoke;
-  }
-  body .second-row div {
-    margin: 50px 0px;
-  }
-  body footer nav {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px auto;
-    width: 100%;
-    font-size: 1.3rem;
-  }
-  body footer nav a {
-    margin: 10px 0px;
-  }
-  body footer div {
-    margin: 50px 0px;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -242,7 +214,6 @@ body button {
     margin: 0px auto;
     width: 100%;
     font-size: 1.3rem;
-    margin: 50px 0px;
   }
   body .second-row div {
     width: 45%;
