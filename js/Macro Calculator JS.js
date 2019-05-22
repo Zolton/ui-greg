@@ -11,6 +11,8 @@ const languageButton = document.querySelector(".button2");
 const firstRowHeadline = document.querySelector(".firstRow1 h2");
 const firstRow2Headline = document.querySelector(".firstRow2 h2");
 const firstRow3Headline = document.querySelector(".firstRow3 h2");
+const secondRow1Headline = document.querySelector(".secondRow1 h2");
+const secondRow2Headline = document.querySelector(".secondRow2 h2");
 
 languageButton.addEventListener("click", activateVoltron);
 
@@ -32,3 +34,9 @@ firstRow2Headline.addEventListener("mouseleave", () => firstRow2Headline.textCon
 
 firstRow3Headline.addEventListener("mouseenter", () => firstRow3Headline.textContent = "行って ！今日はスタトレ");
 firstRow3Headline.addEventListener("mouseleave", () => firstRow3Headline.textContent = "Try it today!");
+
+secondRow1Headline.addEventListener("mouseenter", () => secondRow1Headline.textContent = "新品！携帯電話！タブレット! デスクトップ！");
+secondRow1Headline.addEventListener("mouseleave", () => secondRow1Headline.textContent = "Try it today!");
+
+secondRow2Headline.addEventListener("mouseenter", () => secondRow2Headline.textContent = "無給！どこでも、いつでも！");
+secondRow2Headline.addEventListener("mouseleave", () => secondRow2Headline.textContent = "Try it today!");
