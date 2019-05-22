@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
 html,
 body,
 div,
@@ -138,11 +139,6 @@ header .top-nav-bar {
   margin: 0px auto;
   width: 100%;
   font-size: 1.3rem;
-  margin: 50px 0px;
-}
-.carousel {
-  margin-bottom: 70px;
-  width: 100%;
 }
 .fixed-image-separator {
   height: 200px;
