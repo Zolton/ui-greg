@@ -36,7 +36,7 @@ firstRow3Headline.addEventListener("mouseenter", () => firstRow3Headline.textCon
 firstRow3Headline.addEventListener("mouseleave", () => firstRow3Headline.textContent = "Try it today!");
 
 secondRow1Headline.addEventListener("mouseenter", () => secondRow1Headline.textContent = "新品！携帯電話！タブレット! デスクトップ！");
-secondRow1Headline.addEventListener("mouseleave", () => secondRow1Headline.textContent = "Try it today!");
+secondRow1Headline.addEventListener("mouseleave", () => secondRow1Headline.textContent = "Available on mobile, tablet, or desktop");
 
 secondRow2Headline.addEventListener("mouseenter", () => secondRow2Headline.textContent = "無給！どこでも、いつでも！");
-secondRow2Headline.addEventListener("mouseleave", () => secondRow2Headline.textContent = "Try it today!");
+secondRow2Headline.addEventListener("mouseleave", () => secondRow2Headline.textContent = "Where you want it, how you want it");
