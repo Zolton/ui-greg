@@ -146,6 +146,8 @@ header .top-nav-bar {
 }
 .fixed-image-separator2 {
   display: none;
+  height: 200px;
+  width: 100%;
 }
 nav a {
   color: black;
@@ -218,7 +220,6 @@ body .button1 {
   }
   body .fixed-image-separator2 {
     display: flex;
-    width: 100%;
   }
   body .second-row {
     background-color: whitesmoke;
