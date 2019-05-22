@@ -18,7 +18,7 @@ languageButton.addEventListener("click", activateVoltron);
 
 function activateVoltron() {
   homeLink.forEach(change => (change.textContent = "家"));
-  homeLink.forEach(change => (change.style.fontSize = "1rem"));
+  homeLink.forEach(change => (change.style.fontSize = "2rem"));
   aboutUs.forEach(change => (change.textContent = "私達"));
   aboutUs.forEach(change => (change.style.fontSize = "2rem"));
   loginButton.forEach(change => (change.textContent = "証明の画面"));
