@@ -162,7 +162,11 @@ body .top-fold {
   width: 100%;
   font-size: 1.3rem;
 }
-body div {
+body .first-row div {
+  margin: 50px 0px;
+  justify-content: space-between;
+}
+body .second-row div {
   margin: 50px 0px;
   justify-content: space-between;
 }
@@ -181,13 +185,13 @@ body footer nav {
 body footer nav a {
   margin: 10px 0px;
 }
-body button {
+body .button1 {
+  color: white;
+  text-decoration: none;
   padding: 15px;
   border-radius: 12px;
-  background-color: green;
-  color: white;
+  background-color: blue;
   font-size: 1.5rem;
-  text-decoration: none;
 }
 @media screen and (min-width: 800px) {
   body .first-row {

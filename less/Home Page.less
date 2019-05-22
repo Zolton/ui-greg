@@ -3,7 +3,6 @@ header {
   background-color: whitesmoke;
   .top-nav-bar {
     .displayset (row, space-around, flex-end);
-    //margin: 50px 0px;
   }
 }
 
@@ -19,7 +18,12 @@ body {
     .displayset (column, space-around, center);
   }
 
-  div {
+  .first-row div {
+    margin: 50px 0px;
+    justify-content: space-between;
+  }
+
+  .second-row div {
     margin: 50px 0px;
     justify-content: space-between;
   }
@@ -37,12 +41,12 @@ body {
     }
   }
 
-  button {
+  .button1 {
+    color: white;
+    text-decoration: none;
     padding: 15px;
     border-radius: 12px;
-    background-color: green;
-    color: white;
+    background-color: blue;
     font-size: 1.5rem;
-    text-decoration: none;
   }
 }
