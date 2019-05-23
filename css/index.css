@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
 html,
 body,
 div,
@@ -119,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -138,15 +139,18 @@ header .top-nav-bar {
   margin: 0px auto;
   width: 100%;
   font-size: 1.3rem;
-  margin: 50px 0px;
-}
-.carousel {
-  margin-bottom: 70px;
-  width: 100%;
 }
 .fixed-image-separator {
   height: 200px;
   width: 100%;
+}
+.fixed-image-separator2 {
+  display: none;
+  height: 200px;
+  width: 100%;
+}
+nav a {
+  color: black;
 }
 body {
   display: flex;
@@ -157,14 +161,47 @@ body {
   width: 100%;
   font-size: 1.3rem;
 }
-body h2 {
-  font-size: 2rem;
+body .top-fold {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  font-size: 1.3rem;
 }
 body .first-row div {
   margin: 50px 0px;
+  padding: 15px;
+  justify-content: space-between;
+}
+body .first-row .firstRow1 {
+  background-color: orange;
+  color: white;
+}
+body .first-row .firstRow2 {
+  background-color: red;
+  color: white;
+}
+body .first-row .firstRow3 {
+  background-color: lightskyblue;
+  color: white;
 }
 body .second-row div {
   margin: 50px 0px;
+  padding: 15px;
+  justify-content: space-between;
+}
+body .second-row .secondRow1 {
+  background-color: orange;
+  color: white;
+}
+body .second-row .secondRow2 {
+  background-color: lightskyblue;
+  color: white;
+}
+body h2 {
+  font-size: 2rem;
 }
 body footer nav {
   display: flex;
@@ -178,8 +215,12 @@ body footer nav {
 body footer nav a {
   margin: 10px 0px;
 }
-body footer div {
-  margin: 50px 0px;
+body .button1 {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.5rem;
 }
 @media screen and (min-width: 800px) {
   body .first-row {
@@ -192,34 +233,17 @@ body footer div {
     font-size: 1.3rem;
     background-color: whitesmoke;
   }
-  body div {
-    margin: 50px 0px;
-    justify-content: space-between;
-  }
   body .first-row div {
-    margin: 50px 0px;
     width: 28%;
+  }
+  body .fixed-image-separator {
+    display: none;
+  }
+  body .fixed-image-separator2 {
+    display: flex;
   }
   body .second-row {
     background-color: whitesmoke;
-  }
-  body .second-row div {
-    margin: 50px 0px;
-  }
-  body footer nav {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px auto;
-    width: 100%;
-    font-size: 1.3rem;
-  }
-  body footer nav a {
-    margin: 10px 0px;
-  }
-  body footer div {
-    margin: 50px 0px;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -234,7 +258,6 @@ body footer div {
     margin: 0px auto;
     width: 100%;
     font-size: 1.3rem;
-    margin: 50px 0px;
   }
   body .second-row div {
     width: 45%;
