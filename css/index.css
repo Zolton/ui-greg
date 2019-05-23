@@ -172,11 +172,33 @@ body .top-fold {
 }
 body .first-row div {
   margin: 50px 0px;
+  padding: 15px;
   justify-content: space-between;
+}
+body .first-row .firstRow1 {
+  background-color: orange;
+  color: white;
+}
+body .first-row .firstRow2 {
+  background-color: red;
+  color: white;
+}
+body .first-row .firstRow3 {
+  background-color: lightskyblue;
+  color: white;
 }
 body .second-row div {
   margin: 50px 0px;
+  padding: 15px;
   justify-content: space-between;
+}
+body .second-row .secondRow1 {
+  background-color: orange;
+  color: white;
+}
+body .second-row .secondRow2 {
+  background-color: lightskyblue;
+  color: white;
 }
 body h2 {
   font-size: 2rem;
